@@ -1,0 +1,170 @@
+/* color pallete */
+/* 
+blue #2196F3
+black #000000
+main-black #212121
+grey #757575
+white #FFFFFF 
+*/
+:root {
+    --first-primary-color: #212121;
+    --second-primary-color: #757575;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: rgba(255, 255, 255, 0.6);
+}
+/* body */
+body {
+    font-family: "Roboto", 
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        Cantarell,
+        Ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--first-primary-color);
+    letter-spacing: 0.03em;
+}
+/* link */
+.link {
+    text-decoration: none;
+}
+/* header */
+.logo {
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.header .logo {
+    color: var(--black);
+}
+
+
+.logo-web{
+    color: var(--accent-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.header-nav{
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-link {
+    letter-spacing: 0.02em;
+    color: var(--first-primary-color);
+}
+
+.header-contact-link {
+    color: var(--second-primary-color);
+    letter-spacing: 0.02em;
+}
+/* hero */
+.hero {
+    background-color:cornflowerblue;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    cursor: pointer;
+}
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--accent-color);
+}
+/* Advantages Section */
+.advantages-list-title {
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantages-list-descr {
+    line-height: 1.7;
+    color: var(--second-primary-color)
+}
+/* About Section */
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+/* Our Team Section */
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+.team-list-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-list-descr {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--second-primary-color)
+}
+/* footer */
+.footer .logo {
+    color: var(--white);
+}
+
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: cornflowerblue;
+}
+.footer-list-link {
+    line-height: 1.7;    
+    color: var(--grey);
+    font-style: normal;
+}
+.address {
+    color: var(--white)
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+
