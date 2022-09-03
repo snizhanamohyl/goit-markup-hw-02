@@ -34,6 +34,7 @@ body {
     font-weight: 400;
     color: var(--first-primary-color);
     letter-spacing: 0.03em;
+    color: var(--first-primary-color)
 }
 /* link */
 .link {
@@ -57,7 +58,7 @@ body {
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .header-nav{
@@ -166,5 +167,46 @@ body {
 .link:focus {
     color: var(--accent-color);
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.list {
+    list-style: none;
+}
 
+/* portfolio.html */
+.projects-list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--first-primary-color);
+}
+.projects-list-category {
+    font-size: 16px;
+    line-height: 1.9;    
+    color: var(--second-primary-color);
+}
+.projects-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: inherit;
+    letter-spacing: inherit;
+}
 
+.projects-btn:hover,
+.projects-btn:focus {
+    background-color: var(--accent-color);
+    color:var(--white)
