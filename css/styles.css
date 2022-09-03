@@ -1,11 +1,3 @@
-/* color pallete */
-/* 
-blue #2196F3
-black #000000
-main-black #212121
-grey #757575
-white #FFFFFF 
-*/
 :root {
     --first-primary-color: #212121;
     --second-primary-color: #757575;
@@ -184,6 +176,7 @@ body {
 }
 
 /* portfolio.html */
+/* Projects Section */
 .projects-list-title {
 font-weight: 700;
 font-size: 18px;
@@ -204,6 +197,7 @@ color: var(--first-primary-color);
     text-align: center;
     color: inherit;
     letter-spacing: inherit;
+    cursor: pointer;
 }
 
 .projects-btn:hover,
